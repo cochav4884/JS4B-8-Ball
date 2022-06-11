@@ -55,7 +55,7 @@ h6 {
   text-transform: uppercase;
   margin: 0;
   position: absolute;
-  top: 19.5%;
+  top: 18.5%;
   left: 40.5%;
   width: 150px;
   font-size: 200%;
@@ -72,6 +72,8 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-size: 1.875em;
+  font-weight: bolder;
+  letter-spacing: 2px;
   color: rgb(255, 255, 255);
   background-color: rgb(34, 9, 63);
   border-radius: 5px;
@@ -80,13 +82,28 @@ h6 {
   width: 80%;
   max-width: 15em;
   margin-top: 1em;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   box-shadow: 4px 8px 10px rgb(0, 0, 0);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(49, 112, 143);
 }
 
 /* footer */
 footer {
   text-shadow: 3px 3px rgb(34, 9, 63);
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-shadow: 3px 3px rgb(34, 9, 63);
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: larger;
+  margin: 4em;
 }
 
 .fa-solid {
